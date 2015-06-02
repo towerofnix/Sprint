@@ -8,21 +8,20 @@ main {
 main > #editor-left-pane {
 	position: absolute;
 	width: 50%;
-	top: 3.75em;
-	height: calc(100% - 3.75em);
+	top: 5.75em;
+	height: calc(100% - 5.75em);
 	left: 0;
 }
 
 main > #editor-right-pane {
 	position: absolute;
 	width: 50%;
-	top: 3.75em;
-	height: calc(100% - 3.75em);
+	top: 5.75em;
+	height: calc(100% - 5.75em);
 	right: 0;
 }
 
 main > #editor-right-pane > #editor-code {
-	margin-top: 2em;
-	height: calc(100% - 2em);
+	height: 100%;
 	width: 100%;
 }
