@@ -11,3 +11,25 @@ html, body {
 	box-sizing: border-box;
 	height: 100%;
 }
+
+a {
+	color: #69D2E7;
+	text-decoration: none;
+}
+
+a:after {
+	content: "";
+	position: absolute;
+	width: 0px;
+	height: 2px;
+	background: #69D2E7;
+	transition: all 300ms ease-out;
+	bottom: 0;
+	left: 50%;
+}
+
+a:hover:after {
+	width: 100%;
+	height: 2px;
+	left: 0;
+}
