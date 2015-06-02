@@ -11,6 +11,7 @@ main > #editor-left-pane {
 	top: 5.75em;
 	height: calc(100% - 5.75em);
 	left: 0;
+	background: rgb(47, 49, 41);
 }
 
 main > #editor-right-pane {
@@ -24,4 +25,8 @@ main > #editor-right-pane {
 main > #editor-right-pane > #editor-code {
 	height: 100%;
 	width: 100%;
+}
+
+.ace_gutter-active-line {
+	display: none;
 }
