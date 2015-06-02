@@ -7,7 +7,7 @@
 		
 		<link rel="stylesheet" href="/css/editor.css" type="text/css">
 		
-		<script src="//cdn.jsdelivr.net/ace/1.1.9/ace.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.1.9/ace.js"></script>
 	</head>
 	
 	<body>
