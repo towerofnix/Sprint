@@ -19,7 +19,15 @@
 			</div>
 			<div id="editor-left-pane"></div>
 			<div id="editor-right-pane">
-				<div id="editor-code"></div>
+				<div id="editor-code">
+function init() {
+    // this runs when the app is started, like "When Green Flag Clicked"
+}
+
+function update() {
+    // this runs every frame
+}
+				</div>
 			</div>
 			
 			<script src="/js/editor.js"></script>
