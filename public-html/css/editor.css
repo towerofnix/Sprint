@@ -1,0 +1,6 @@
+main {
+	width: 100%;
+	height: calc(100% - 3.75em);
+	background: #29475F;
+	color: white;
+}
