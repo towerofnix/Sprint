@@ -14,6 +14,9 @@
 		<?php include 'navbar.php'; ?>
 		
 		<main>
+			<div id="editor-toolbar">
+				<span id="editor-file">File</span>
+			</div>
 			<div id="editor-left-pane"></div>
 			<div id="editor-right-pane">
 				<div id="editor-code"></div>
