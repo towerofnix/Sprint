@@ -25,6 +25,7 @@ main > #editor-right-pane {
 main > #editor-right-pane > #editor-code {
 	height: 100%;
 	width: 100%;
+	font-size: 14px;
 }
 
 .ace_gutter-active-line {
