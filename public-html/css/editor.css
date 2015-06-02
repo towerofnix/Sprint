@@ -20,3 +20,9 @@ main > #editor-right-pane {
 	height: calc(100% - 3.75em);
 	right: 0;
 }
+
+main > #editor-right-pane > #editor-code {
+	margin-top: 2em;
+	height: 100%;
+	width: 100%;
+}
