@@ -7,4 +7,5 @@
 <link rel="stylesheet" href="/css/footer.css" type="text/css">
 
 <script src="/js/modernizr.js"></script>
+<script src="/js/jquery.js"></script>
 <script src="/js/main.js"></script>
