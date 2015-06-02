@@ -4,3 +4,19 @@ main {
 	background: #29475F;
 	color: white;
 }
+
+main > #editor-left-pane {
+	position: absolute;
+	width: 50%;
+	top: 3.75em;
+	height: calc(100% - 3.75em);
+	left: 0;
+}
+
+main > #editor-right-pane {
+	position: absolute;
+	width: 50%;
+	top: 3.75em;
+	height: calc(100% - 3.75em);
+	right: 0;
+}
