@@ -51,7 +51,33 @@ var Project = function() {
 // SoundResource =============================================
 // An object that stores a piece of sound.
 
-var SoundRecource = function(name, data) {
+var SoundResourcecource = function(name, data) {
   this.name = name;
   this.data = data;
 };
+
+
+var updateSpritesPane = function() {
+    var sprites = PROJECT.sprites;
+    for (var i = 0; i < sprites.length; i++) {
+        var s = sprites[i];
+    }
+};
+
+// Sprite ====================================================
+
+var Sprite = function(name) {
+    this.name = name;
+    this.costume = null;
+};
+
+Sprite.prototype.costume = function(aImageResource) {
+    this.costume = aImageResource;
+};
+
+Sprite.prototype.draw = {
+    // You fill this in GrannyCookies XD
+};
+
+
+var PROJECT = new Project();
