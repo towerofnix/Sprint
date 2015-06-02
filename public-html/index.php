@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<title>Sprint - Scratch for ATers</title>
+		
 		<?php include 'head.php'; ?>
 	</head>
 	
