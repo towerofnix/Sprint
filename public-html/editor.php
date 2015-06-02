@@ -17,7 +17,11 @@
 			<div id="editor-toolbar">
 				<span id="editor-file">File</span>
 			</div>
-			<div id="editor-left-pane"></div>
+			<div id="editor-left-pane">
+				<div id="editor-go">Go</div>
+				<div id="editor-stop">Stop</div>
+				<div id="editor-fullscreen">Fullscreen</div>
+			</div>
 			<div id="editor-right-pane">
 				<div id="editor-code">function init() {
     // this runs when the app is started, like "When Green Flag Clicked"
