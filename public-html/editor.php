@@ -6,7 +6,8 @@
 		<?php include 'head.php'; ?>
 		
 		<link rel="stylesheet" href="/css/editor.css" type="text/css">
-		<script src="/js/ace.js"></script>
+		
+		<script src="//cdn.jsdelivr.net/ace/1.1.9/ace.js"></script>
 	</head>
 	
 	<body>
