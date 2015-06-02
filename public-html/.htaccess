@@ -1,0 +1,7 @@
+RewriteEngine on
+
+RewriteCond %{HTTP_HOST} ^(www\.sprint\.gwiddle\.co\.uk)(:80)? [NC]
+RewriteRule ^(.*) http://sprint.gwiddle.co.uk/$1 [R=301,L]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
