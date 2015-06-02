@@ -6,7 +6,7 @@
 		<?php include 'head.php'; ?>
 		
 		<link rel="stylesheet" href="/css/editor.css" type="text/css">
-		<script src="ace.js"></script>
+		<script src="/js/ace.js"></script>
 	</head>
 	
 	<body>
@@ -18,7 +18,7 @@
 				<div id="editor-code"></div>
 			</div>
 			
-			<script src="editor.js"></script>
+			<script src="/js/editor.js"></script>
 		</main>
 	</body>
 </html>
