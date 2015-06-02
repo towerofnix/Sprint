@@ -14,6 +14,7 @@ html, body {
 
 a {
 	color: #69D2E7;
+	position: relative;
 	text-decoration: none;
 }
 
