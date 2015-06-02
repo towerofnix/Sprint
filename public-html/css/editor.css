@@ -23,6 +23,6 @@ main > #editor-right-pane {
 
 main > #editor-right-pane > #editor-code {
 	margin-top: 2em;
-	height: 100%;
+	height: calc(100% - 2em);
 	width: 100%;
 }
