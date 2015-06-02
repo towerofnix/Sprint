@@ -22,10 +22,17 @@ nav > div > a {
 	float: right;
 	width: 100px;
 	font-size: 24px;
+	background: transparent;
+	
+	transition: all 200ms;
 }
 
 nav > div > a:after {
 	display: none;
+}
+
+nav > div > a:hover {
+	background: rgba(0, 0, 0, 0.2);
 }
 
 nav > div > a:first-child {
